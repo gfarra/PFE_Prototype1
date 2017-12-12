@@ -1,0 +1,10 @@
+use mycustomers
+
+db.createCollection('Customers');
+
+// Show
+
+db.customers.insert({first_name:"John", last_name:"Doe"});
+
+
+db.customers.insert([{first_name:"Steven", last_name:"Smith"}, {first_name:"Gabriel", last_name:"Farra", gender:"male"}]);

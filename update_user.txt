@@ -1,0 +1,11 @@
+db.customers.update({first_name:"John"}, {first_name:"John", last_name:"Doh", gender:"male"});
+
+db.customers.update({first_name:"Steven"}, {$set:{gender:"female"});
+
+db.customers.update({first_name:"Steven"}, {$set:{age:45}});
+
+db.customers.update({first_name:"Steven"}, {$inc:{age:5}});
+
+db.customers.update({first_name:"Steven"}, {$unset:{age:1}});
+
+db.customers.update({first_name:"Mary"}, {first_name:"Mary", last_name:"Samson"}, {upsert: true});

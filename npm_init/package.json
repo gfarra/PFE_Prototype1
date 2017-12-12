@@ -1,0 +1,28 @@
+{
+  "name": "nodeMongo",
+  "version": "1.0.0",
+  "description": "Node.js and MongoDb prototype.",
+  "main": "Server.js",
+  "scripts": {
+    "test": "Test1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gfarra/PFE_Prototype1"
+  },
+  "keywords": [
+    "Node.js",
+    "mongoDb"
+  ],
+  "author": "Shahid Shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfarra/PFE_Prototype1/issues"
+  },
+  "homepage": "https://github.com/gfarra/PFE_Prototype1",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongoose": "^4.13.7"
+  }
+}
